@@ -1,0 +1,312 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100vh;
+    width: 100vw;
+   overflow-x: hidden;
+}
+/* First Section */
+#home {
+    background-color: rgb(68, 68, 253);
+    position: absolute;
+    right: 0px;
+    width: 100%;
+    height: 600px;
+    background-image: url(background\ img.svg);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar li {
+    list-style: none;
+    padding: 2px 23px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+}
+
+#home h3 {
+    position: absolute;
+    top: 42px;
+    left: 150px;
+    color: white;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+#btn {
+    position: absolute;
+    top: 40px;
+    right: 150px;
+    padding: 8px 15px;
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+}
+
+.place {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    top: 150px;
+    color: white;
+}
+
+.place h1 {
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+
+.place p {
+    font-size: 16px;
+    margin: 3px;
+}
+
+.buttons {
+    display: flex;
+    position: absolute;
+    top: 360px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.buttons button {
+    padding: 12px 32px;
+    margin: 12px;
+    font-size: 20px;
+    border-radius: 25px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+#img1 {
+    position: absolute;
+    top: 250px;
+    left: -350px;
+}
+#img2 {
+    position: absolute;
+    bottom: 54px;
+    left: 1050px;
+    bottom: 55px;
+}
+
+#discordbtn {
+    background-color: rgb(49, 49, 49);
+    color: white;
+    border: 2px solid rgb(49, 49, 49);
+
+}
+
+#discordbtn:hover {
+    background-color: rgb(65, 64, 64);
+    border: 2px solid rgb(65, 64, 64);
+}
+
+#discordbutton:hover {
+    color: blue;
+}
+
+.discord {
+    display: flex;
+}
+        /* Second Section */
+
+        #img4{
+            position: relative;
+    width: auto;
+    height: auto;
+    top: 700px;
+        }
+        .create{
+            position: relative;
+font-family: 'Gill Sans', 'Gill Sans MT',Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Trebuchet MS', sans-serif;
+            margin-left: 790px;
+ margin-top: 24%;     
+ font-size: 34px;      
+        }
+
+        .create p{
+            font-size: 18px;
+            margin: 12px;
+        }
+
+        .section3{
+            background-color:rgb(243, 242, 242);
+            border-radius: 10px;
+            margin-top: 200px;
+        }
+
+         /* Third Section */
+         .hanging-out {
+            position: absolute;
+            top: 1450px;
+            left: 100px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #img5{
+            position: relative;
+            width: auto;
+            height: auto;
+            left: 40%;
+            margin-top: 80px;
+        }
+        #h1{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 60px;
+            color: rgb(41, 42, 43);
+        }
+
+        .section3 p{
+line-height: 30px;
+margin-top: 10px;;
+        }
+
+                /* fourth Section */
+
+                .img6{
+                    position: absolute;
+                    height: 450px;
+                    left: 80px;
+                 }
+                 #fendom {
+                    position: absolute;
+            margin-top: 80px ;
+                    height: 100%;
+
+                }
+
+                #fendom h1{
+                    margin-left: 865px;
+                    font-size: 50px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    top: 200px;
+                }
+        #fendom p{
+
+            margin-left: 860px;
+            line-height: 30px;
+            margin-top: 10px;
+        }
+        .form-few {
+            position: relative;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            left: 850px;
+            top: 100px;
+        }
+
+/* Fifth Section */
+.reliable {
+    background-color: whitesmoke;
+    position: absolute;
+    top: 2400px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 150%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.reliable h1 {
+    font-size: 50px;
+    margin: 12px;
+    margin-top:50px;
+
+}
+
+.reliable p {
+    font-size: 18px;
+    margin: 6px;
+
+}
+
+.reliable img {
+    width: 1200px;
+}
+.ready{
+    position: absolute;
+    margin-top: 1500px;
+margin-left: 450px;
+font-size: 20px;
+}
+#b1{
+    border-radius: 20px;
+    height: 40px;
+    width: 300px;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: rgb(56, 56, 247);
+    color: white;
+    border-color: rgb(56, 56, 247);
+}
+ /* Sixth Section */
+
+ .container {
+    background-color: rgb(27, 27, 27);
+    position: absolute;
+    height: 600px;
+    width:1300px ;
+    display: flex;
+    margin-top: 1900px;
+    justify-content: space-around;
+}
+
+.item {
+    margin-top: 100px;
+}
+
+#firstp {
+    color: blue;
+}
+
+.item p {
+    color: white;
+    margin: 12px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.item p:hover {
+    text-decoration: underline;
+}
+.ready button {
+    background-color: blue;
+    border: 2px solid blue;
+    color: white;
+    padding: 13px 22px;
+    border-radius: 30px;
+    font-size: 20px;
+    margin: 40px;
+}
+
+
+
+
+
